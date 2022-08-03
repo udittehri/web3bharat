@@ -1,0 +1,30 @@
+.lesson-track-background {
+    background-color: #1b1325;
+    height: 100%;
+    float:left;
+    width: 100%;
+}
+
+.lesson-tracks-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    margin: 6rem 3rem 0 19rem;
+}
+
+.tutorial-heading {
+    position: absolute;
+/* width: 156px; */
+/* height: 49px; */
+left: 300px;
+/* top: calc(50% - 49px/2 - 350px); */
+font-family: 'Impact';
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 48px;
+text-align: center;
+
+color: #F5BB19;
+
+}

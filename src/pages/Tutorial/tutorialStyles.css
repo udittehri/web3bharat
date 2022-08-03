@@ -1,0 +1,96 @@
+.tutorial-background {
+  background: #1b1325;
+  color: #fff;
+  height: 100vh;
+}
+
+.rectangle {
+  height: 2px;
+  width: 100%;
+}
+
+.tutorial-header {
+  display: flex;
+  font-size: 0.8rem;
+  margin: 0 10%;
+}
+
+.tutorial-header-1 {
+  display: inline;
+  color: #8669cf;
+}
+
+.tutorial-header-2 {
+  display: inline;
+}
+
+.tutorial-img {
+  /* width: 80%; */
+  width: 80%;
+  height:330px;
+  object-fit:cover;
+  object-position:50% 50%;
+  margin:10px;
+  /* padding-bottom: 20px; */
+}
+
+.dot {
+  margin-right: 16px;
+}
+
+.tutorial-title {
+  display: flex;
+  margin: 12px 10%;
+}
+
+.horizontal-rule {
+  width: 40rem;
+  height: 0px;
+  border: 0.908878px solid #3b2f49;
+  margin-left: 10%;
+  margin-top: 0;
+}
+
+.tweet-container {
+    position: absolute;
+    right: 10%;
+    top:50%;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.tweet-header {
+  font-size: 1.2rem;
+}
+
+.tweet-header-1 {
+  display: inline;
+}
+
+.tweet-header-2 {
+  display: inline;
+  color: #fbac30;
+}
+
+.tweet-header-3 {
+  display: inline;
+  color: #5e5271;
+}
+
+.tweet-rectangle {
+    /* background: url('../../images/tweet-rectangle.svg') no-repeat;
+    width: 220px;
+    height: 50px; */
+    margin: 20px;
+}
+
+.pin {
+  position: absolute;
+  display: inline;
+  padding-left: 8px;
+}
+.no-a-tag{
+  color: #fff;
+  /* background-color: #3b2f49; */
+  text-decoration: none;
+}

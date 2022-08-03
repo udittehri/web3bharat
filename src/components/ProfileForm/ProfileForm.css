@@ -1,0 +1,238 @@
+.profile-form-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: #1b1325;
+  mix-blend-mode: normal;
+}
+
+.profile-form-container {
+  color: #fff;
+  width: 48rem;
+  height: 100%;
+  top: 24px;
+  margin: 5rem;
+  padding: 3rem;
+  background: #2b1b4b;
+  border-radius: 16.9657px;
+}
+
+.profile-form-header {
+  display: flex;
+}
+
+.profile-form-header-1 {
+  display: inline;
+  font-size: 32px;
+}
+
+.profile-form-header-2 {
+  display: inline;
+  font-size: 32px;
+  color: #fbac30;
+  margin-left: 10px;
+}
+
+.profile-form-sub-header {
+  display: flex;
+  font-size: 20px;
+}
+
+.profile-form-input-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(24px, auto);
+}
+
+.profile-form-label {
+  display: flex;
+  margin-bottom: 6px;
+  font-size: 0.8rem;
+  margin-right: 20px;
+  width: 100px;
+
+}
+.profile-form-labelinput{
+}
+/* input */
+
+.profile-form-input {
+  width: 350px;
+  height: 33px;
+  display: flex;
+  background: #1b1325;
+  border: 1px solid #7754d1;
+  border-radius: 3.21px;
+}
+.reason > .profile-form-label{
+  width: 100%;
+}
+
+input,
+select,
+textarea {
+  color: #fff;
+  
+}
+
+textarea:focus,
+input:focus {
+  color: #fff;
+}
+
+.form-horizontal-rule {
+  width: 48rem;
+  height: 0px;
+  border: 0.908878px solid #3b2862;
+  margin-top: 2rem;
+}
+
+.describes-you-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  grid-auto-rows: minmax(24px, auto);
+}
+
+.describes-you {
+  display: flex;
+}
+
+.describes-you-input {
+  width: 220px;
+  height: 33px;
+  display: flex;
+  background: #1b1325;
+  border: 1px solid #7754d1;
+  border-radius: 3.21px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background: #1b1325;
+  border: 1px solid #7754d1;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.19);
+  border-radius: 3.21px;
+}
+
+.container:hover input ~ .checkmark {
+  background: #3a304e;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* .checkbox {
+  box-sizing: border-box;
+  width: 25.45px;
+  height: 23.02px;
+  background: #1b1325;
+  border: 1px solid #7754d1;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.19);
+  border-radius: 3.21px;
+  margin: 0 16px 0 0;
+} */
+
+.experience-level-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  grid-auto-rows: minmax(24px, auto);
+}
+
+.experience-level {
+  display: flex;
+}
+
+.interests-dropdown {
+  width: 308px;
+  height: 33px;
+  display: flex;
+  background: #1b1325;
+  border: 1px solid #7754d1;
+  border-radius: 3.21px;
+  color: #5e5271;
+}
+
+.reasons-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  grid-auto-rows: minmax(24px, auto);
+}
+
+.reason {
+  display: flex;
+}
+
+.profile-form-button {
+  color: #fff;
+  border: none;
+  background: none;
+  width: 200px;
+  height: 64px;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  background-image: url("../../images/button-border.svg");
+  cursor: pointer;
+}
+.error-span{
+  color: red;
+  font-size: 12px;
+  
+}

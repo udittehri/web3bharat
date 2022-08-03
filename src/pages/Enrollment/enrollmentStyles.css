@@ -1,0 +1,67 @@
+.enrollment-background {
+  background: #1b1325;
+  color: #fff;
+}
+
+.rectangle {
+  height: 2px;
+  width: 100%;
+}
+
+.enrollment-header {
+  margin: 3rem 20% 0;
+}
+
+.enrollment-header-1 {
+  display: inline;
+}
+
+.enrollment-header-2 {
+  color: #fbac30;
+  display: inline;
+}
+
+.enrollment-container {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.enrollment-button {
+  color: #fff;
+  border: none;
+  background: none;
+  margin: 120px 265px 0 0;
+  width: 200px;
+  height: 64px;
+  font-size: 1.2rem;
+  background-image: url("../../images/button-border.svg");
+  cursor: pointer;
+}
+
+.enrollment-card {
+  width: 515px;
+  height: 306.94px;
+  background: #2b1b4b;
+  border-radius: 44.3298px;
+  margin: 0 2rem;
+}
+
+.key {
+  width: 52%;
+  margin: -120px 0 0 200px;
+}
+
+.rocket {
+  width: 70%;
+  margin: -200px 0 0 150px;
+}
+
+.copyright {
+    margin: 0 auto;
+    padding: 8px;
+    font-size: 0.8rem;
+    color: #8B819B;
+}

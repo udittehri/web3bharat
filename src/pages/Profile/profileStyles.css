@@ -1,0 +1,39 @@
+.profile-background {
+  background: #1b1325;
+  color: #fff;
+}
+
+.rectangle {
+  height: 2px;
+  width: 100%;
+}
+
+.profile-header {
+  padding: 4rem;
+}
+
+.profile-header-1 {
+  display: inline;
+}
+
+.profile-header-2 {
+  display: inline;
+  color: #fbac30;
+}
+
+.profile-bootcamp-section {
+  width: 330px;
+  margin: 16px;
+}
+
+.profile-button {
+  color: #fff;
+  border: none;
+  background: none;
+  margin: 48px 0;
+  width: 200px;
+  height: 64px;
+  font-size: 1.2rem;
+  background-image: url("../../images/button-border.svg");
+  cursor: pointer;
+}

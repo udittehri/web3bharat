@@ -1,0 +1,42 @@
+.lesson-sidebar-background {
+  width: 255px;
+  height: 2600px;
+  float: left;
+  background: #2b1b4b;
+  color: #fff;
+}
+
+.lesson-sidebar-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-bulb {
+  padding-right: 10px;
+}
+
+.pen {
+  padding-right: 10px;
+}
+
+.curved-rectangle-container {
+  position: relative;
+  text-align: center;
+  height: 70px;
+}
+
+.curved-rectangle {
+  width: 80%;
+}
+
+.curved-rectangle-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
